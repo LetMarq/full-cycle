@@ -11,5 +11,6 @@ jobs:
       - uses: actions/setup-go@v4
         with: 
           go-version: 1.22.2
+          cache: false
       - run: go test ./continuous-integration/code
       - run: go run ./continuous-integration/code
