@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(sum(1, 2))
+	fmt.Println(sumFunction(1, 2))
 }
 
-func sum(a, b int) int {
+func sumFunction(a, b int) int {
 	return a + b
 }
 
-func sub(a, b int) int {
-	return a - b
-}
+// func subFunction(a, b int) int {
+// 	return a - b
+// }
